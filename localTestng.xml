@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Wiley-Etext-CFI-Automation" thread-count="1" parallel="tests">
+
+    <test name="CFI-test-on-Nijman_Regions_18e_vs_epub">
+        <parameter name="bookname" value="Nijman_Regions_18e_vs_epub"/>
+        <classes>
+            <class name="com.wiley.cfireader.runner.TestRunner">
+            </class>
+        </classes>
+    </test>
+
+    <test name="CFI-test-on-Nijman_The_World_Today_8e_vs_epub">
+        <parameter name="bookname" value="Nijman_The_World_Today_8e_vs_epub"/>
+        <classes>
+            <class name="com.wiley.cfireader.runner.TestRunner">
+            </class>
+        </classes>
+    </test>
+
+    <test name="CFI-test-on-Wessner_Microbiology_3e_vs_epub">
+        <parameter name="bookname" value="Wessner_Microbiology_3e_vs_epub"></parameter>
+        <classes>
+            <class name="com.wiley.cfireader.runner.TestRunner">
+            </class>
+        </classes>
+    </test>
+
+    <test name="CFI-test-on-Olmsted_Chemistry_4e_Canadian_vs_epub">
+        <parameter name="bookname" value="Olmsted_Chemistry_4e_Canadian_vs_epub"></parameter>
+        <classes>
+            <class name="com.wiley.cfireader.runner.TestRunner">
+            </class>
+        </classes>
+    </test>
+</suite>
